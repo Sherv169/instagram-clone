@@ -112,7 +112,6 @@ function App() {
   }
 
 
-
   return (
     <div className="App">
 
@@ -194,7 +193,6 @@ function App() {
         </div>
       </div>
 
-
       {user?.displayName ? (
         <ImageUpload username={user.displayName} />
       ) : (
@@ -203,5 +201,4 @@ function App() {
     </div >
   );
 }
-
 export default App;
